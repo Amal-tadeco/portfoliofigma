@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* primary color */
+  --dark_gray1: #101214;
+  --dark_gray2: #73808d;
+  --white: #ffffff;
+
+  /* secondary color */
+  --ciel: #dbecff;
+  --yellow: #ffefd7;
+  --green: #d6f3f3;
+  --gray: #cbd7e4;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2 {
+  color: var(--dark_gray1);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  color: var(--dark_gray2);
+  font-size: 20px;
+  font-weight: 400;
+}

@@ -1,0 +1,66 @@
+.app {
+  width: 100%;
+}
+
+/* stlying the header  */
+
+.app__header {
+  padding-top: 160px;
+  padding-left: 236px;
+  padding-right: 240px;
+}
+.header {
+  max-width: 1440px;
+  margin: auto;
+}
+.header__text {
+  padding-top: 35px;
+}
+
+/* styling the projects  */
+
+.app__project {
+  max-width: 1434px;
+  margin: auto;
+  padding-top: 160px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 73px;
+  padding-bottom: 320px;
+}
+
+.project__image {
+  display: grid;
+  place-items: center;
+
+  width: 680px;
+  height: 410px;
+  margin-bottom: 24px;
+}
+.project__description > h2 {
+  padding-bottom: 8px;
+}
+
+.color1 {
+  background-color: var(--ciel);
+}
+
+.color2 {
+  background-color: var(--yellow);
+}
+
+.color3 {
+  background-color: var(--gray);
+}
+
+.color4 {
+  background-color: var(--ciel);
+}
+
+.color5 {
+  background-color: var(--gray);
+}
+
+.color6 {
+  background-color: var(--gray);
+}
