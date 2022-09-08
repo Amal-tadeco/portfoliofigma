@@ -16,6 +16,13 @@
 .header__text {
   padding-top: 35px;
 }
+.header__textp1{
+  padding-top:204px;
+  padding-left:240px;
+  max-width: 1320px;
+  margin: auto;
+  padding-top: 24px;
+}
 
 /* styling the projects  */
 
@@ -29,14 +36,36 @@
   padding-bottom: 320px;
 }
 
+.app__project1 {
+  max-width: 1320px;
+  margin: auto;
+  padding-top: 204px;
+  gap: 73px;
+  padding-bottom: 320px;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+
 .project__image {
   display: grid;
   place-items: center;
-
   width: 680px;
   height: 410px;
   margin-bottom: 24px;
 }
+.project2__image {
+
+  place-items: center;
+  width: 1920px;
+  height: 740px;
+  margin-bottom:0px;
+}
+.project1__image {
+  display: grid;
+  width: 1920px;
+  height: 740px;
+  margin-bottom: 24px;
+}
+
 .project__description > h2 {
   padding-bottom: 8px;
 }
@@ -64,3 +93,16 @@
 .color6 {
   background-color: var(--gray);
 }
+.column {
+  float: left;
+  width: 50%;
+  padding: 140px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
